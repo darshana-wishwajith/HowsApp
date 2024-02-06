@@ -16,7 +16,7 @@ class Send{
     public function send($subject, $content, $receiver_email){
 
         $sender_email = 'dev.mail.darshana@gmail.com';
-        $app_password = 'eebl zelr oueu snww';
+        $app_password = '*****************';
         $website_name = 'HowsApp';
 
         $mail = new PHPMailer;
