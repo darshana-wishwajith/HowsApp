@@ -1,0 +1,71 @@
+/*include fonts*/
+@font-face {
+  font-family: "Open Sans";
+  src: url(resources/fonts/OpenSans/OpenSans-VariableFont_wdth_wght.ttf);
+}
+/* @font-face {
+  font-family: 'Lexend Deca';
+  src: url(resources/fonts/LexendDeca/LexendDeca-VariableFont_wght.ttf);
+} */
+
+/*initialize default settings*/
+
+/* :root{
+  --primary-color: #2F0533;
+  --secondary-color: #B55B92;
+  --accent-color: #5e0a66;
+  --background-color: #fff2fd;
+
+  --font-color: #000000;
+
+  --main-font: 'Open Sans', 'sans-serif';
+  --heading-font: 'Lexend Deca', 'sans-serif';
+
+  --shadow-bdr : rgba(0, 0, 0, 0.05) 0px 8px 24px;
+} */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* body{
+  background-color: var(--background-color) !important;
+  color: var(--accent-color) !important;
+  font-family: var(--main-font) !important;
+}
+
+h1, h2, h3{
+  font-family: var(--heading-font) !important;
+}
+
+a{
+  color: var(--accent-color) !important;
+}
+
+.btn-primary{
+  background-color: var(--primary-color) !important;
+  border: var(--primary-color) !important;
+  box-shadow: var(--shadow) !important;
+}
+
+p{
+  color: var(--font-color) !important;
+}
+
+.shadow_bdr{
+  box-shadow: var(--shadow-bdr) !important;
+} */
+
+/*initialize default settings*/
+/* 
+*{
+  font-family: "Open Sans" !important;
+} */
+
+#chat-container,
+#inbox-container {
+  overflow-y: scroll !important;
+}
+
+
